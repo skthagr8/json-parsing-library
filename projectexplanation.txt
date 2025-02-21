@@ -1,0 +1,7 @@
+This project aims to develop a json parser in c++
+It will be developed as highlighted below
+
+1. The input will be a JSON file eg json.json 
+2. The file will be read line by line and then trimmed for whitespace and similar non-characters.
+3. The file will extract the key and its value and store the latter in a json base class,
+ and the former in a field in an unordered hash map, together with the latter.
