@@ -1,0 +1,105 @@
+{
+    "company": {
+      "name": "TechCorp",
+      "departments": [
+        {
+          "name": "Engineering",
+          "teams": [
+            {
+              "name": "Backend",
+              "members": [
+                {
+                  "id": 1,
+                  "name": "Alice",
+                  "role": "Software Engineer",
+                  "skills": ["C++", "Python", "Networking"],
+                  "projects": [
+                    {
+                      "name": "UltraDB",
+                      "status": "active",
+                      "technologies": {
+                        "language": "C++",
+                        "frameworks": ["Boost.Asio", "gRPC"],
+                        "database": "PostgreSQL"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "name": "Bob",
+                  "role": "Database Architect",
+                  "skills": ["SQL", "Storage Systems", "Distributed Computing"],
+                  "projects": [
+                    {
+                      "name": "HighPerfNoSQL",
+                      "status": "research",
+                      "technologies": {
+                        "language": "C",
+                        "frameworks": ["RocksDB", "Custom B-Trees"],
+                        "storage": ["SSD", "HDD"]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Frontend",
+              "members": [
+                {
+                  "id": 3,
+                  "name": "Charlie",
+                  "role": "Frontend Engineer",
+                  "skills": ["React", "TypeScript", "UX Design"],
+                  "projects": [
+                    {
+                      "name": "NextGenUI",
+                      "status": "in progress",
+                      "technologies": {
+                        "language": "JavaScript",
+                        "frameworks": ["React", "TailwindCSS"]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Research",
+          "teams": [
+            {
+              "name": "AI/ML",
+              "members": [
+                {
+                  "id": 4,
+                  "name": "David",
+                  "role": "Machine Learning Engineer",
+                  "skills": ["PyTorch", "TensorFlow", "CUDA"],
+                  "projects": [
+                    {
+                      "name": "DeepVision",
+                      "status": "experimental",
+                      "technologies": {
+                        "language": "Python",
+                        "libraries": ["PyTorch", "NumPy"],
+                        "hardware": ["NVIDIA A100", "TPUs"]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+
+  {
+    "key":[[],
+    []]
+  }
